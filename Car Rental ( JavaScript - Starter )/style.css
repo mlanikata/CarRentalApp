@@ -858,6 +858,22 @@ MODELS PAGE
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
 }
 
+.models__list__spinner {
+  font-size: 40px;
+  margin: 0 auto;
+  animation: loading-spinner 1000ms infinite;
+}
+
+@keyframes loading-spinner {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
 /* XL Screens */
 
 @media (max-width: 1280px) {
